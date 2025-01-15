@@ -11,7 +11,7 @@ export default function Home() {
           <div className={`${styles.heroText} width text-light`}>
             <div className={`${styles.heroTextLeft}`}>
               <h1 className='text-xl'>
-                A vibrant city nestled <br /> against the <br />  Mountains
+                A vibrant Province nestled against the <br />  Mountains
               </h1>
               <p className='text-m'>
                 Drawn by clean air and mythical light, visitors come to experience traditions, fine art, great cuisine and natural beauty of the landscape.
