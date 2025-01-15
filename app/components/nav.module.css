@@ -1,0 +1,73 @@
+.navLogo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.8rem;
+  /* height: 10rem; */
+}
+
+.nav{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 12rem  1fr;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.navLinks ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+.navLinks li a{
+    display: flex;
+    flex-direction: column;
+    font-size: .9rem;
+    justify-content: center;
+    line-height: 1.3rem;
+    /* color: #fff;
+    background-color: #003356; */
+}
+
+.quickLink{
+    padding: 1rem;
+    background-color: #F0F0F0;
+
+    
+}
+
+.quickLinks{
+    padding-left: 2rem;
+}
+
+.quickLinksLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.quickLinksRight{
+    padding-right: 2rem;
+}
+
+.quickLinksRight a{
+    font-size: 1rem;
+}
+
+
+.reportIssue{
+    padding: .8rem 1rem;
+    margin: 0 2rem;
+    font-size: .9rem;
+}
+
+/* .facebook{
+    font-size: 1.5rem;
+} */
