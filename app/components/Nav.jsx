@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from './nav.module.css'
 import SocialsIcons from './socialsIcons';
+import Logo from './Logo';
 
 
 function Nav() {
@@ -11,7 +12,11 @@ function Nav() {
         
         <div className={`${styles.navLogo} bg-navy`}>
             <Link href="/">
-                <Image src="/imgs/logo-long.png" alt="logo" width={100} height={100} style={{ height: 'auto', width: '100%'}}/>
+                <Image src='/imgs/Bukidnon.info logo-white.png' alt='Bukidnon.Info' width={60} height={60} />
+                <div className={`${styles.navLogoText} flex flex-col`}>
+                    <span className='text-s bold text-light'>Bukidnon</span>
+                    <span className='text-xxxs text-light-200'>enjoy the province</span>
+                </div>
             </Link>
         </div>
         <div className={`${styles.navLinks} flex bold flex-row flex-space-between`}>

@@ -1,0 +1,13 @@
+.cls-1, .cls-2 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+  }
+
+  .cls-3 {
+    stroke-width: 0px;
+  }
+
+  .cls-2 {
+    fill: none;
+    stroke-width: 5px;
+  }

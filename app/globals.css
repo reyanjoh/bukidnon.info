@@ -3,6 +3,14 @@
   --foreground: #171717;
 
   --theme-color: #E8816E;
+
+
+
+  --theme-gradient-1: #C95D5D;
+  --theme-gradient-2: #E8816E;
+  --theme-gradient-3: #F4A66E;
+  --theme-gradient-4: #F7C580;
+  
   /* --theme-color-2: #E8816E; */
   --navy: #0E3044;
   --navy-light: #10354C;
@@ -57,6 +65,21 @@ body {
   align-items: center;
 }
 
+.theme-gradient-1{
+  background: var(--theme-gradient-1);
+}
+
+.theme-gradient-2{
+  background: var(--theme-gradient-2);
+}
+
+.theme-gradient-3{
+  background: var(--theme-gradient-3);
+} 
+
+.theme-gradient-4{
+  background: var(--theme-gradient-4);
+} 
 
 
 * {
@@ -169,6 +192,18 @@ ul{
   display: flex;
 }
 
+.gap-1{
+  gap: 1rem;
+}
+
+.gap-2{
+  gap: 2rem;
+}
+
+.gap-3{
+  gap: 3rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -254,12 +289,20 @@ ul{
   font-weight: 500;
 }
 
+.text-s{
+  font-size: .9rem;
+}
+
 .text-xs{
   font-size: .8rem;
 }
 
 .text-xxs{
   font-size: .7rem;
+}
+
+.text-xxxs{
+  font-size: .5rem;
 }
 
 .text-m{

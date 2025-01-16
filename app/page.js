@@ -2,6 +2,7 @@ import styles from "./page.module.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Link from "next/link";
+import Image from "next/image";
 export default function Home() {
   return (
     <div className='page'>
@@ -29,12 +30,66 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={`${styles.section} ${styles.about} width-full flex flex-justify-center`}>
-          <div className={`${styles.aboutText} width text-light`}>
-            <h1>About</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
-            </p>
+        <section className={`${styles.section} ${styles.about} width-full flex flex-justify-center bg-dark`}>
+          <div className={`${styles.aboutText} width text-light flex flex-col gap-3`}>
+
+            
+            <div className={`${styles.aboutTop} width`}>
+              <div className={`${styles.aboutCard} theme-gradient-4`}>
+                <Link href='/'><h5>Departments & Facility Hours</h5></Link>
+                <p>
+                Access City&apos;s service offerings and check hours for all facilities.
+                </p>
+              </div>
+              <div className={`${styles.aboutCard} theme-gradient-3`}>
+                <Link href='/'><h5>Traffic, Transit & Parking</h5></Link>
+                <p>
+                Traffic and road closure news and local traffic conditions
+                </p>
+              </div>
+              <div className={`${styles.aboutCard} theme-gradient-2`}>
+                <Link href='/'><h5>Employment & Job Listings</h5></Link>
+                <p>
+                The City employment opportunities & position descriptions are listed here.
+                </p>
+              </div>
+              <div className={`${styles.aboutCard} theme-gradient-1`}>
+                <Link href='/'><h5>Parks, Fields & Recreation</h5></Link>
+                <p>
+                Information on the parks, their locations, and the amenities they offer.
+                </p>
+              </div>
+            </div>
+
+            <div className={`${styles.aboutBottom} width`}>
+              <div className={`${styles.aboutBottomLeft}`}>
+                <div className={`${styles.aboutBottomText} flex flex-col flex-justify-center gap-1`}>
+                  <h2>
+                  Thank you for allowing me to serve as your mayor. Together, let&apos;s keep the momentum going.
+                  </h2>
+                  <p className='text-xxs'>
+                  Mayor <span className='text-theme'>John Doe</span>
+                  </p>
+                </div>
+              </div>
+              <div className={`${styles.aboutBottomRight} flex flex-justify-center`}>
+                <Image src='/imgs/pangagda.svg' alt='About Bottom Right' width={500} height={500} />
+              </div>
+            </div>
+
+            
+          </div>
+        </section>
+
+        <section className={`${styles.section} ${styles.highlights} width-full flex flex-justify-center bg-light`}>
+          <div className={`${styles.highlightsText} width text-light flex flex-col gap-3`}>
+            <div className={`${styles.highlightsBottom} width`}>
+              <div className={`${styles.highlightsBottomLeft}  flex flex-col text-dark`}>
+                <h2>
+                Thank you for allowing me to serve as your mayor. Together, let&apos;s keep the momentum going.
+                </h2>
+              </div>
+            </div>
           </div>
         </section>
       </main>

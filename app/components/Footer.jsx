@@ -9,7 +9,7 @@ const Footer = () => {
         <div className={`${styles.footertopContainer} flex flex-center`}>
             <div className={`${styles.footertop} flex flex-row width`}>
                 <div className={styles.footertopleft}>
-                    <Link href="/"><Image className='bg-navy' src="/imgs/logo-square.png" alt="Bukidnon.Info" width={250} height={250} /></Link>
+                    <Link href="/"><Image className='bg-navy' src="/imgs/Bukidnon.info logo-white.png" alt="Bukidnon.Info" width={200} height={200} /></Link>
 
                     <h5 className='text-center'>Bukidnon.Info</h5>
                     <p className='text-light-200'>Bukidnon.Info is a free online platform that provides information about Bukidnon, Philippines. Our aim is to connect people with the latest news, events, and resources in the region.</p>
