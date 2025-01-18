@@ -1,7 +1,7 @@
 import styles from './footer.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import SocialsIcons from './socialsIcons';
+import SocialsIcons from '../components-page/socialsIcons';
 
 const Footer = () => {
   return (

@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './nav.module.css'
-import SocialsIcons from './socialsIcons';
+import SocialsIcons from '../components-page/socialsIcons';
 
 
 function Nav() {
