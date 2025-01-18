@@ -13,13 +13,13 @@ const Footer = () => {
 
                     <h5 className='text-center'>Bukidnon.Info</h5>
                     <p className='text-light-200'>Bukidnon.Info is a free online platform that provides information about Bukidnon, Philippines. Our aim is to connect people with the latest news, events, and resources in the region.</p>
-                    <div className={`${styles.footertopleftsearch} `}>
+                    {/* <div className={`${styles.footertopleftsearch} `}>
                         <input className='bg-navy-light border-light-200 width-100' type="text" placeholder="I am looking for..." />
                         <input className={`${styles.footertopleftsearchsubmit} bg-cta-hover-with-border text-light-100`} type="submit" value="Search" />
-                    </div>
+                    </div> */}
                 </div>
             <div className={styles.footertopright}>
-                <ul>
+                {/* <ul>
                     <li>
                         <h6>Living Here</h6>
                         <ul>
@@ -80,7 +80,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </li>
-                </ul>
+                </ul> */}
             </div>
             </div>
         </div>
@@ -98,22 +98,6 @@ const Footer = () => {
             </div>
         </div>
 
-        {/* <div>
-                <ul className={`uppercase`}>
-                    <li>
-                        <Link href="/">Request a service</Link>
-                    </li>
-                    <li>
-                        <Link href="/">Request a service</Link>
-                    </li>
-                    <li>
-                        <Link href="/">Request a service</Link>
-                    </li>
-                    <li>
-                        <Link href="/">Request a service</Link>
-                    </li>
-                </ul>
-        </div> */}
         <div className={`${styles.footerBottom} text-xs flex flex-center text-light-200`}>
             <span>
                 Copyright © 2018 - 2025 • Bukidnon.Info™ by <Link href="/">Bukidnon.Info</Link>

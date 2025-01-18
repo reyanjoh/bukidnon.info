@@ -31,8 +31,11 @@
   position: fixed;
   top: 0;
   z-index: 1000;
+  background-color: transparent;
 }
-
+.navLinks{
+  background-color: white;
+}
 
 .navLinks ul{
     display: flex;
@@ -54,13 +57,14 @@
 
 .quickLink{
     padding: 1rem;
-    background-color: #F0F0F0;
-
+    /* background-color: #F0F0F0; */
+    background-color: transparent;
     
 }
 
 .quickLinks{
     padding-left: 2rem;
+    background-color: transparent;
 }
 
 .quickLinksLeft{
@@ -68,6 +72,7 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    background-color: transparent;
 }
 
 .quickLinksRight{

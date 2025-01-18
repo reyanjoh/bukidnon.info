@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from './nav.module.css'
 import SocialsIcons from './socialsIcons';
-import Logo from './Logo';
 
 
 function Nav() {
@@ -53,20 +52,20 @@ function Nav() {
             </Link>
         </div>
         <div className={`${styles.quickLink} text-xxs bold text-light-300 flex flex-center uppercase`}>
-            <span>
+            {/* <span>
                 quick links: 
-            </span>
+            </span> */}
         </div>
         <div className={`${styles.quickLinks} text-xxs bold text-light-300 bg-light-200 flex flex-space-between `}>
             <div className={`${styles.quickLinksLeft} flex flex-space-between`}>
-                <Link href="/">Request a service</Link>
+                {/* <Link href="/">Request a service</Link>
                 <Link href="/about">Administration</Link>
                 <Link href="/contact">How Do I</Link>
                 <Link href="/contact">Report an issue</Link>
-                <Link href="/contact">faqs</Link>
+                <Link href="/contact">faqs</Link> */}
             </div>
             <div className={`${styles.quickLinksRight} flex flex-space-between`}>
-                <SocialsIcons />
+                {/* <SocialsIcons /> */}
             </div>
         </div>
     </nav>
