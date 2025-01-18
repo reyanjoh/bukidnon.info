@@ -1,8 +1,11 @@
 import styles from "./page.module.css";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
+import Nav from "./page-components/Nav";
+import Footer from "./page-components/Footer";
 import Link from "next/link";
 import Image from "next/image";
+import CardRight from "./page-components/CardRight";
+import CardLeft from "./page-components/cardLeft";
+
 export default function Home() {
   return (
     <div className='page'>
@@ -81,17 +84,82 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={`${styles.section} ${styles.highlights} width-full flex flex-justify-center bg-light`}>
-          <div className={`${styles.highlightsText} width text-light flex flex-col gap-3`}>
-            <div className={`${styles.highlightsBottom} width`}>
-              <div className={`${styles.highlightsBottomLeft}  flex flex-col text-dark`}>
-                <h2>
-                Thank you for allowing me to serve as your mayor. Together, let&apos;s keep the momentum going.
-                </h2>
-              </div>
+        <section className={`${styles.section} ${styles.sectionImageOnTheLeft} width-full`}>
+         
+          <div className={`${styles.sectionImageOnTheLeftContainer}`}>
+              
+          </div>
+          <div>
+             
+          </div>
+
+          <div className={`${styles.sectionImageOnTheLeftcontentContainer}`}>
+            <div className={`${styles.sectionImageOnTheLeftContentContainerLeft}`}>
+                <h3>
+                  A vibrant Province nestled against the Mountains.
+                </h3>
+            </div>
+            <div className={`${styles.sectionImageOnTheLeftContentContainerRight}`} >
+                <h3>
+                  Town Highlights
+                </h3>
+                <p>
+                  Find out what&apos;s going on & stay up to date.
+                </p>
+
+                <div className={`${styles.contentLinkscardContainer}`}>
+                  <CardRight />
+                  <CardRight />
+                  <CardRight />
+                  
+                </div>
+            </div>
+          </div>
+
+        </section>
+
+
+
+        <section className={`${styles.section} ${styles.eventsSectionImageOnTheRight} width-full`}>
+          
+          <div className={`${styles.eventsSectionImageOnTheLeftLeftContainer} bg-dark`}>
+            
+          </div>
+          <div className={`${styles.eventsSectionImageOnTheLeftRightContainer}`}>
+            
+          </div>
+
+          <div className={`${styles.eventsSectionImageOnTheLeftContentContainer} width`}>
+            <div className={`${styles.lefttContainer7}`}>
+                <h3>
+                  Town Highlights
+                </h3>
+                <p>
+                  Find out what&apos;s going on & stay up to date.
+                </p>
+                <div className={`${styles.cardLeftContainer}`}>
+                  <CardLeft />
+                  <CardLeft />
+                  <CardLeft />
+                </div>
+            </div>
+
+            <div className={`${styles.rightContainer3}`}>
+                <h3>
+                  A vibrant Province nestled against the Mountains.
+                </h3>
             </div>
           </div>
         </section>
+
+        <section className={`${styles.section} ${styles.sectionBecomeAVolunteer} width-full`}>
+          <div className={`${styles.sectionBecomeAVolunteerContainer} width`}>
+            
+          </div>
+        </section>
+
+
+
       </main>
       <Footer />
     </div>

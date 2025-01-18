@@ -1,0 +1,58 @@
+.cardLeft{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    /* background-color: red; */
+    padding: 2rem 0;
+    border-bottom: 2px solid #343b44;
+
+}
+
+.cardLeftImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    aspect-ratio: 1/1;
+    background-color: red;
+    overflow: hidden;
+}
+
+.cardImage{
+    transition: all .2s ease;
+}
+
+
+.cardLeftContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.cardLeftContent h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all .5s ease;
+    color: var(--white);
+}
+
+.cardLeftDate{
+    color: var(--white);
+}
+
+.date{
+    background-color: var(--theme-color);
+    padding: .5rem;
+    margin-right: .6rem;
+}
+
+
+
+.cardLeft:hover .cardImage{
+    transform: scale(1.1);
+}
+
+.cardLeft:hover .cardLeftContent h5{
+    color: var(--theme-color);
+}
