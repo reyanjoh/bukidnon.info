@@ -1,6 +1,7 @@
 
 .footer{
     gap: 3rem;
+    margin-top: 5rem;
 }
 .footertop{
     display: grid;

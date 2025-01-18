@@ -152,9 +152,33 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={`${styles.section} ${styles.sectionBecomeAVolunteer} width-full`}>
-          <div className={`${styles.sectionBecomeAVolunteerContainer} width`}>
-            
+        <section className={`${styles.section} ${styles.sectionBecomeAVolunteer} width-full flex flex-justify-center`}>
+          <div className={`${styles.sectionBecomeAVolunteerContainer} width flex flex-row`}>
+            <div className={`${styles.sectionBecomeAVolunteerLeft}`}>
+              <div className={`${styles.sectionBecomeAVolunteerText}`}>
+                <h3>
+                  Become a Volunteer!
+                </h3>
+                <h4>
+                  And make a difference!
+                </h4>
+                <p>
+                  Volunteers are the heart of a community. Our volunteers are a valuable resource for our fast-growing, fast-paced city.
+                </p>
+                <p>
+                  Our city relies on our volunteers for everything from staffing special event, such as Freedom Fest and Merry Main Street, to assisting departments with daily activities, such as shelving library books, filing records or using GIS equipment.
+                </p>
+                <Link href='/'>How to Apply</Link>
+              </div>
+            </div>
+            <div className={`${styles.sectionBecomeAVolunteerRight}`}>
+
+              <div className={`${styles.sectionBecomeAVolunteerRightImage}`}>
+                <Image src='/imgs/place.jpg' alt='About Bottom Right' width={500} height={500} />
+                
+                <Image src='/imgs/police.jpg' alt='About Bottom Right' width={500} height={350} />
+              </div>
+            </div>
           </div>
         </section>
 
