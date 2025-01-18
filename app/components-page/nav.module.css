@@ -23,14 +23,17 @@
   font-weight: 600;
 } */
 
+.navContainer{
+  position: fixed;
+  top: 2rem;
+  z-index: 1000;
+  /* width: 100dvw; */
+
+}
 
 .nav{
-  margin-top: 2rem;
   display: grid;
   grid-template-columns: 12rem  1fr;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
   background-color: transparent;
 }
 .navLinks{
@@ -41,7 +44,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    /* gap: 1rem; */
+    gap: 3rem;
     margin-left: 2rem;
 }
 
@@ -53,6 +57,12 @@
     line-height: 1.3rem;
     color: black;
     /* background-color: #003356; */
+    transition: all .1s ease;
+}
+
+.navLinks li a:hover{
+  color: var(--theme-color);
+  /* text-decoration: underline; */
 }
 
 .quickLink{

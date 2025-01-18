@@ -1,15 +1,14 @@
 import styles from "./page.module.css";
-import Nav from "./page-components/Nav";
-import Footer from "./page-components/Footer";
+import Nav from "./components-page/Nav";
+import Footer from "./components-page/Footer";
 import Link from "next/link";
 import Image from "next/image";
-import CardRight from "./page-components/CardRight";
-import CardLeft from "./page-components/cardLeft";
+import CardRight from "./components-page/CardRight";
+import CardLeft from "./components-page/cardLeft";
 
 export default function Home() {
   return (
     <div className='page'>
-      <Nav />
       <main className={styles.main}>
         <section className={`${styles.section} ${styles.hero} width-full flex flex-justify-center`}>
           <div className={`${styles.heroText} width text-light`}>
@@ -174,9 +173,9 @@ export default function Home() {
             <div className={`${styles.sectionBecomeAVolunteerRight}`}>
 
               <div className={`${styles.sectionBecomeAVolunteerRightImage}`}>
-                <Image src='/imgs/place.jpg' alt='About Bottom Right' width={500} height={500} />
+                <Image className={`${styles.sectionBecomeAVolunteerRightImagePolice}`} src='/imgs/place.jpg' alt='About Bottom Right' width={500} height={500} />
                 
-                <Image src='/imgs/police.jpg' alt='About Bottom Right' width={500} height={350} />
+                <Image className={`${styles.sectionBecomeAVolunteerRightImagePolice}`} src='/imgs/police.jpg' alt='About Bottom Right' width={500} height={350} />
               </div>
             </div>
           </div>
@@ -185,7 +184,6 @@ export default function Home() {
 
 
       </main>
-      <Footer />
     </div>
   );
 }

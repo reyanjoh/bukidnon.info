@@ -7,7 +7,8 @@ import SocialsIcons from './socialsIcons';
 
 function Nav() {
   return (
-    <nav className={`${styles.nav} flex justify-between uppercase items-center flex-row width bg-light`}>
+    <div className={`${styles.navContainer} width-full flex flex-center`}>
+      <nav className={`${styles.nav} flex justify-between uppercase items-center flex-row width bg-light`}>
         
         <div className={`${styles.navLogo} bg-navy`}>
             <Link href="/">
@@ -21,15 +22,9 @@ function Nav() {
         <div className={`${styles.navLinks} flex bold flex-row flex-space-between`}>
             <ul>
                 <li>
-                    <Link href="/city-news">
-                    city news
-                    <span className='text-xxs bold-light-200'>current updates</span>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/residents">
-                    residents
-                    <span className='text-xxs bold-light-200'>get useful info</span>
+                    <Link href="/news">
+                    <span className='span'>news</span>
+                    <span className='text-xxs bold-light-200'>Latest happenings</span>
                     </Link>
                 </li>
                 <li>
@@ -38,12 +33,19 @@ function Nav() {
                     <span className='text-xxs bold-light-200'>Join the fun</span>
                     </Link>
                 </li>
+                {/* <li>
+                    <Link href="/residents">
+                    residents
+                    <span className='text-xxs bold-light-200'>get useful info</span>
+                    </Link>
+                </li>
+                
                 <li>
                     <Link href="/features">
                     features
                     <span className='text-xxs bold-light-200'>find what you need</span>
                     </Link>
-                </li>
+                </li> */}
             </ul>
 
             <Link href="/" className={`${styles.reportIssue} lh-2 bold flex flex-col bg-cta-hover text-light `}>
@@ -68,7 +70,8 @@ function Nav() {
                 {/* <SocialsIcons /> */}
             </div>
         </div>
-    </nav>
+      </nav>
+    </div>
   )
 }
 
