@@ -33,6 +33,12 @@ function Nav() {
                     <span className='text-xxs bold-light-200'>Join the fun</span>
                     </Link>
                 </li>
+                <li>
+                    <Link href="/features">
+                    subscribe
+                    <span className='text-xxs bold-light-200'>to our newsletter</span>
+                    </Link>
+                </li> 
                 {/* <li>
                     <Link href="/residents">
                     residents
