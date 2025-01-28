@@ -14,7 +14,7 @@ function CardRight() {
             Proposed Downtown District Ordinance
             </h5>
 
-            <div className={`${styles.contentLinkscardDate}`}>
+            <div className={`contentLinkscardDate`}>
                 <span>
                     John Doe
                 </span>
@@ -24,7 +24,7 @@ function CardRight() {
                 
                 
                 <span>
-                    <Link className={`${styles.contentLinkscardCategory}`} href='/'>
+                    <Link className={`contentLinkscardCategory`} href='/'>
                     Town News
                     </Link>
                 </span>

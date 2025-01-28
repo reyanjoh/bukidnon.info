@@ -1,0 +1,73 @@
+.articleCard{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+
+.articleCard:nth-child(odd){
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(246, 246, 248) 45%, rgb(246, 249, 250) 100%);
+    
+}
+
+.articleCard:nth-child(even){
+    background-color: white;
+}
+
+.imageContainer{
+    height: 15rem;
+    width: 40rem;
+    aspect-ratio: 3/2;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.articleCard:hover .image{
+    transform: scale(1.02);
+}
+
+
+.textContainer h2{
+    transition: all 0.2s ease-in-out;
+}
+
+.articleCard:hover .textContainer h2{
+    color: var(--theme-color);
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.preview{
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

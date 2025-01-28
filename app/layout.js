@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Bukidnon.info",
-  description: "Bukidnon.info a platform for the people of Bukidnon to get the latest news and updates about the province.",
+  description: "Bukidnon.info | a platform for the people of Bukidnon to get the latest news and updates about the province.",
 };
 
 export default function RootLayout({ children }) {

@@ -18,79 +18,79 @@ const Footer = () => {
                         <input className={`${styles.footertopleftsearchsubmit} bg-cta-hover-with-border text-light-100`} type="submit" value="Search" />
                     </div> */}
                 </div>
-            <div className={styles.footertopright}>
-                {/* <ul>
-                    <li>
-                        <h6>Living Here</h6>
-                        <ul>
-                            <li>
-                                <Link href="/">Government</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Administration</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Culture & Recreation</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Business</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Documents</Link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h6>Useful Links</h6>
-                        <ul>
-                            <li>
-                                <Link href="/">Government</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Administration</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Culture & Recreation</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Business</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Documents</Link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h6>Quick Links</h6>
-                        <ul>
-                            <li>
-                                <Link href="/">Government</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Administration</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Culture & Recreation</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Business</Link>
-                            </li>
-                            <li>
-                                <Link href="/">Documents</Link>
-                            </li>
-                        </ul>
-                    </li>
-                </ul> */}
-            </div>
+                <div className={styles.footertopright}>
+                    {/* <ul>
+                        <li>
+                            <h6>Living Here</h6>
+                            <ul>
+                                <li>
+                                    <Link href="/">Government</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Administration</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Culture & Recreation</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Business</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Documents</Link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h6>Useful Links</h6>
+                            <ul>
+                                <li>
+                                    <Link href="/">Government</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Administration</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Culture & Recreation</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Business</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Documents</Link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h6>Quick Links</h6>
+                            <ul>
+                                <li>
+                                    <Link href="/">Government</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Administration</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Culture & Recreation</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Business</Link>
+                                </li>
+                                <li>
+                                    <Link href="/">Documents</Link>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul> */}
+                </div>
             </div>
         </div>
 
         <div className={`${styles.footerSocials} flex flex-center width-full`}>
             <div className={`${styles.footerSocialsContainer} flex flex-row width`}>
-                <div className={`${styles.footerSocialsLeft} flex flex-row flex-justify-end bg-navy`}>
+                <div className={`${styles.footerSocialsLeft} flex flex-row flex-justify-end bg-navy flex-mobile flex-center-mobile`}>
                     <SocialsIcons />
                 </div>
-                <div className={`${styles.footerSocialsRight} flex flex-row flex-justify-end bg-theme-color`}>
+                <div className={`${styles.footerSocialsRight} flex flex-row flex-justify-end bg-theme-color flex-mobile flex-center-mobile`}>
                     <span className='text-l bold-heavy'>
                         Live here. Play here. Thrive here.
                     </span>
@@ -98,7 +98,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className={`${styles.footerBottom} text-xs flex flex-center text-light-200`}>
+        <div className={`${styles.footerBottom} text-xs flex flex-center text-light-200 flex-mobile flex-center-mobile`}>
             <span>
                 Copyright © 2018 - 2025 • Bukidnon.Info™ by <Link href="/">Bukidnon.Info</Link>
             </span>

@@ -1,11 +1,73 @@
+.navContainer{
+  /* position: relative; */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.nav{
+ 
+  display: grid;  
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas: 
+  "navLogo navBtn"
+  "navLinks navLinks"
+  "navLinks navLinks"
+  "navLinks navLinks";
+}
 .navLogo{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 1.8rem;
+
+  grid-area: navLogo;
   /* height: 10rem; */
 }
+
+.humburgerBtn{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.5rem;
+  grid-area: navBtn;
+}
+
+.navLinksShow{
+  display: block;
+}
+.navLinksHide{
+  display: none;
+}
+
+.navLinks{
+  /* display: none; */
+  /* display: block; */
+  grid-area: navLinks;
+}
+
+.button{
+  /* background-color: transparent; */
+  border: none;
+  /* color: black; */
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: .8rem;
+
+  
+}
+
+.btnSpan{
+  padding-left: .5rem;
+}
+
+
+
+.quickLink, .quickLinks{
+  display: none;
+}
+
+
+
+
 
 .navLogo a{
   /* font-size: 2rem; */
@@ -18,88 +80,140 @@
   
 }
 
-/* .navLogo a span{
-  font-size: .8rem;
-  font-weight: 600;
-} */
-
-.navContainer{
-  position: fixed;
-  top: 2rem;
-  z-index: 1000;
-  /* width: 100dvw; */
-
-}
-
-.nav{
-  display: grid;
-  grid-template-columns: 12rem  1fr;
-  background-color: transparent;
-}
-.navLinks{
-  background-color: white;
-}
-
 .navLinks ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* gap: 1rem; */
-    gap: 3rem;
-    margin-left: 2rem;
+  gap: 1.5rem;
+  padding-left: 1rem;
 }
 
 .navLinks li a{
-    display: flex;
-    flex-direction: column;
-    font-size: .9rem;
-    justify-content: center;
-    line-height: 1.3rem;
-    color: black;
-    /* background-color: #003356; */
-    transition: all .1s ease;
+  display: flex;
+  flex-direction: column;
+  font-size: .9rem;
+  justify-content: center;
+  line-height: 1.3rem;
+  color: black;
+  /* background-color: #003356; */
+  padding: 1rem 0;
+  transition: all .1s ease;
 }
-
-.navLinks li a:hover{
-  color: var(--theme-color);
-  /* text-decoration: underline; */
-}
-
-.quickLink{
-    padding: 1rem;
-    /* background-color: #F0F0F0; */
-    background-color: transparent;
-    
-}
-
-.quickLinks{
-    padding-left: 2rem;
-    background-color: transparent;
-}
-
-.quickLinksLeft{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-    background-color: transparent;
-}
-
-.quickLinksRight{
-    padding-right: 2rem;
-}
-
-.quickLinksRight a{
-    font-size: 1rem;
-}
-
 
 .reportIssue{
-    padding: .8rem 1rem;
-    margin: 0 2rem;
-    font-size: .9rem;
+  padding: .8rem 1rem;
+  font-size: .9rem;
 }
 
-/* .facebook{
+
+
+
+
+
+
+@media (min-width: 1024px) {
+  
+  
+  /* .navLogo a span{
+    font-size: .8rem;
+    font-weight: 600;
+  } */
+  
+  .navContainer{
+    position: fixed;
+    top: 2rem;
+    z-index: 1000;
+    /* width: 100dvw; */
+  
+  }
+  
+  .nav{
+    display: grid;
+    grid-template-columns: 12rem  1fr;
+    background-color: transparent;
+    position: relative;
+  }
+  
+  .nav{
+    display: grid;    
+    grid-template-areas: 
+    "navLogo  navLinks"
+  }
+ 
+  
+  .navLinks{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navLinks ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      /* gap: 1rem; */
+      gap: 1.5rem;
+      padding: 0;
+      margin-left: 2rem;
+  }
+  
+  .navLinks li a{
+    padding: 0;
+  }
+  
+  .navLinks li a:hover .span{
+    color: var(--theme-color);
+    /* text-decoration: underline; */
+  }
+  
+  .quickLink{
+      padding: 1rem;
+      /* background-color: #F0F0F0; */
+      background-color: transparent;
+      
+  }
+  
+  .quickLinks{
+      padding-left: 2rem;
+      background-color: transparent;
+  }
+  
+  .quickLinksLeft{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      background-color: transparent;
+  }
+  
+  .quickLinksRight{
+      padding-right: 2rem;
+  }
+  
+  .quickLinksRight a{
+      font-size: 1rem;
+  }
+  
+  
+  .reportIssue{
+      padding: .8rem 1rem;
+      margin: 0 2rem;
+      font-size: .9rem;
+  }
+  
+  /* .facebook{
+      font-size: 1.5rem;
+  } */
+  
+  
+  .showOnMobile{
+    position: absolute;
+    color: white; 
     font-size: 1.5rem;
-} */
+    display: none;
+  }
+  
+}
+
+
+
+

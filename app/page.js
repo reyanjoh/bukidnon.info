@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className='page'>
       <main className={styles.main}>
-        <section className={`${styles.section} ${styles.hero} width-full flex flex-justify-center`}>
+        <section className={`${styles.section} ${styles.hero} width-full flex flex-justify-center p-x-1-m`}>
           <div className={`${styles.heroText} width text-light`}>
             <div className={`${styles.heroTextLeft}`}>
               <h1 className='text-xl'>
@@ -38,24 +38,31 @@ export default function Home() {
             
             <div className={`${styles.aboutTop} width`}>
               <div className={`${styles.aboutCard} theme-gradient-4`}>
+                <Image className={`${styles.aboutCardIcon}`} src='/icons/monument.png' alt='Departments & Facility Hours' width={500} height={500} />
                 <Link href='/'><h5>Departments & Facility Hours</h5></Link>
                 <p>
                 Access City&apos;s service offerings and check hours for all facilities.
                 </p>
               </div>
               <div className={`${styles.aboutCard} theme-gradient-3`}>
+                <Image className={`${styles.aboutCardIcon}`} src='/icons/bus.png' alt='Departments & Facility Hours' width={500} height={500} />
+
                 <Link href='/'><h5>Traffic, Transit & Parking</h5></Link>
                 <p>
                 Traffic and road closure news and local traffic conditions
                 </p>
               </div>
               <div className={`${styles.aboutCard} theme-gradient-2`}>
+                <Image className={`${styles.aboutCardIcon}`} src='/icons/exam.png' alt='Departments & Facility Hours' width={500} height={500} />
+
                 <Link href='/'><h5>Employment & Job Listings</h5></Link>
                 <p>
                 The City employment opportunities & position descriptions are listed here.
                 </p>
               </div>
               <div className={`${styles.aboutCard} theme-gradient-1`}>
+                <Image className={`${styles.aboutCardIcon}`} src='/icons/bench.png' alt='Departments & Facility Hours' width={500} height={500} />
+
                 <Link href='/'><h5>Parks, Fields & Recreation</h5></Link>
                 <p>
                 Information on the parks, their locations, and the amenities they offer.
@@ -64,17 +71,18 @@ export default function Home() {
             </div>
 
             <div className={`${styles.aboutBottom} width`}>
-              <div className={`${styles.aboutBottomLeft}`}>
+              <div className={`${styles.aboutBottomLeft} `}>
                 <div className={`${styles.aboutBottomText} flex flex-col flex-justify-center gap-1`}>
                   <h2>
-                  Thank you for allowing me to serve as your mayor. Together, let&apos;s keep the momentum going.
+                  Experience the magic of Bukidnon as we celebrate our rich culture, traditions, and indigenous heritage.
                   </h2>
                   <p className='text-xxs'>
-                  Mayor <span className='text-theme'>John Doe</span>
+                  {/* Mayor <span className='text-theme'>John Doe</span> */}
+                  <Link href='/'>Read More</Link>
                   </p>
                 </div>
               </div>
-              <div className={`${styles.aboutBottomRight} flex flex-justify-center`}>
+              <div className={`${styles.aboutBottomRight} flex flex-justify-center flex-mobile flex-justify-center-mobile`}>
                 <Image src='/imgs/pangagda.svg' alt='About Bottom Right' width={500} height={500} />
               </div>
             </div>
@@ -93,12 +101,12 @@ export default function Home() {
           </div>
 
           <div className={`${styles.sectionImageOnTheLeftcontentContainer}`}>
-            <div className={`${styles.sectionImageOnTheLeftContentContainerLeft}`}>
+            <div className={`${styles.sectionImageOnTheLeftContentContainerLeft} p-x-1-m`}>
                 <h3>
                   A vibrant Province nestled against the Mountains.
                 </h3>
             </div>
-            <div className={`${styles.sectionImageOnTheLeftContentContainerRight}`} >
+            <div className={`${styles.sectionImageOnTheLeftContentContainerRight} p-x-1-m p-x-3`} >
                 <h3>
                   Town Highlights
                 </h3>
@@ -119,7 +127,7 @@ export default function Home() {
 
 
 
-        <section className={`${styles.section} ${styles.eventsSectionImageOnTheRight} width-full`}>
+        {/* <section className={`${styles.section} ${styles.eventsSectionImageOnTheRight} width-full`}>
           
           <div className={`${styles.eventsSectionImageOnTheLeftLeftContainer} bg-dark`}>
             
@@ -149,9 +157,9 @@ export default function Home() {
                 </h3>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className={`${styles.section} ${styles.sectionBecomeAVolunteer} width-full flex flex-justify-center`}>
+        {/* <section className={`${styles.section} ${styles.sectionBecomeAVolunteer} width-full flex flex-justify-center`}>
           <div className={`${styles.sectionBecomeAVolunteerContainer} width flex flex-row`}>
             <div className={`${styles.sectionBecomeAVolunteerLeft}`}>
               <div className={`${styles.sectionBecomeAVolunteerText}`}>
@@ -179,7 +187,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
 
 
