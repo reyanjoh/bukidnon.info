@@ -107,6 +107,12 @@
 
 
 
+.aboutBottomRight{
+  overflow: hidden;
+}
+
+
+
 
 .sectionImageOnTheLeft{
   display: grid;

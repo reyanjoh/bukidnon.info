@@ -11,7 +11,7 @@ function CardRight() {
         </div>
         <div className={`${styles.contentLinkscardPreview}`}>
             <h5>
-            Proposed Downtown District Ordinance
+            Proposed Downtown District Ordinance Proposed Downtown District Ordinance
             </h5>
 
             <div className={`contentLinkscardDate`}>
@@ -36,6 +36,10 @@ function CardRight() {
                 </span>
             </div>
             <p>
+            The Annual Water Quality Report is designed to provide consumers with information on the quality of the water delivered by their
+            The Annual Water Quality Report is designed to provide consumers with information on the quality of the water delivered by their
+            The Annual Water Quality Report is designed to provide consumers with information on the quality of the water delivered by their
+            The Annual Water Quality Report is designed to provide consumers with information on the quality of the water delivered by their
             The Annual Water Quality Report is designed to provide consumers with information on the quality of the water delivered by their
             </p>
         </div>
