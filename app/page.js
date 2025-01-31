@@ -100,13 +100,13 @@ export default function Home() {
              
           </div>
 
-          <div className={`${styles.sectionImageOnTheLeftcontentContainer}`}>
+          <div className={`${styles.sectionImageOnTheLeftcontentContainer} width`}>
             <div className={`${styles.sectionImageOnTheLeftContentContainerLeft} p-x-1-m`}>
                 <h3>
                   A vibrant Province nestled against the Mountains.
                 </h3>
             </div>
-            <div className={`${styles.sectionImageOnTheLeftContentContainerRight} p-x-1-m p-x-3`} >
+            <div className={`${styles.sectionImageOnTheLeftContentContainerRight} p-x-1-m`} >
                 <h3>
                   Town Highlights
                 </h3>

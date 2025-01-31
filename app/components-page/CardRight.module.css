@@ -4,7 +4,7 @@
   flex-direction: row;
   padding: 2rem 0;
   border-bottom: 2px solid #f3f3f3;
-  /* background-color: blue; */
+  /* background-color: rgb(72, 72, 136); */
 }
 
 
@@ -29,10 +29,16 @@
 }
 
 .contentLinkscardPreview h5{
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all .2s ease;
+
+
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+
 }
 
 .contentLinkscard:hover .contentLinkscardPreview h5{
@@ -49,13 +55,6 @@
   flex-direction: column;
 }
 
-.contentLinkscardPreview h5{
-  font-size: 1.5rem;
-  font-weight: 600;
-  transition: all .2s ease;
-
-
-}
 
 
 
@@ -92,10 +91,10 @@
 
   
     .contentLinkscardPreview h5{
-      white-space: nowrap; 
+      /* white-space: nowrap; 
       width: 35rem; 
       overflow: hidden;
-      text-overflow: ellipsis; 
+      text-overflow: ellipsis;  */
       /* background-color: red; */
     }
     
