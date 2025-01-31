@@ -113,6 +113,23 @@ a {
   padding: 0 4rem
 }
 
+
+
+.p-y-1-m{
+  padding: 1rem 0
+}
+.p-y-2-m{
+  padding: 2rem 0
+}
+.p-y-3-m{
+  padding: 3rem 0
+}
+.p-y-4-m{
+  padding: 4rem 0
+}
+
+
+
 ul{
   list-style: none;
 }
@@ -447,6 +464,32 @@ ul{
     padding: 0 4rem
   }
 
+
+  .p-y-1-m{
+    padding: 0 0
+  }
+  .p-y-2-m{
+    padding: 0 0
+  }
+  .p-y-3-m{
+    padding: 0 0
+  }
+  .p-y-4-m{
+    padding: 0 0
+  }
+
+  .p-y-1{
+    padding: 1rem 0
+  }
+  .p-y-2{
+    padding: 2rem 0
+  }
+  .p-y-3{
+    padding: 3rem 0
+  }
+  .p-y-4{
+    padding: 4rem 0
+  }
 
   .flex{
     display: flex;
