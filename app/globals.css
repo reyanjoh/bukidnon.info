@@ -386,6 +386,7 @@ ul{
   font-weight: 500;
   display: flex;
   gap: .5rem;
+  padding: .5rem 0;
   color: var(--text-light-300);
 }
 
