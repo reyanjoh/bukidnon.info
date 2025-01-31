@@ -175,7 +175,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: blueviolet; */
+  background-color: rgba(137, 43, 226, 0.301);
   /* border: 1px solid #f3f3f3; */
 }
 
@@ -290,7 +290,7 @@
   
     
     display: grid;
-    grid-template-columns: .6fr 1.4fr;
+    grid-template-columns: .68fr 1fr;
     /* min-height: 35rem; */
   }
   
