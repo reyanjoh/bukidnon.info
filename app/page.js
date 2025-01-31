@@ -93,12 +93,12 @@ export default function Home() {
 
         <section className={`${styles.section} ${styles.sectionImageOnTheLeft} width-full`}>
          
-          <div className={`${styles.sectionImageOnTheLeftContainer}`}>
+          {/* <div className={`${styles.sectionImageOnTheLeftContainer}`}>
               
           </div>
           <div>
              
-          </div>
+          </div> */}
 
           <div className={`${styles.sectionImageOnTheLeftcontentContainer} width`}>
             <div className={`${styles.sectionImageOnTheLeftContentContainerLeft} p-x-1-m`}>

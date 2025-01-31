@@ -7,7 +7,7 @@
 
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1150px) {
     .hero{
         background-image: url('/imgs/place.jpg');
         background-size: cover;

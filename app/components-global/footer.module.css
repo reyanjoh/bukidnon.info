@@ -62,7 +62,7 @@
 
 
 
-@media (min-width: 1024px){
+@media (min-width: 1150px){
     
     .footertop{
         grid-template-columns: 30rem 1fr;

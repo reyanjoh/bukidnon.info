@@ -119,6 +119,12 @@
   grid-template-columns: 1fr;
   min-height: 80rem;
   position: relative;
+
+
+  background-image: url('/imgs/bukidnon.jpg');
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
 }
 
 .sectionImageOnTheLeftContainer{
@@ -175,6 +181,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
   /* background-color: rgba(137, 43, 226, 0.301); */
   /* border: 1px solid #f3f3f3; */
 }
@@ -227,7 +234,7 @@
 
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1150px) {
 
   .hero{
     min-height: 43rem;
@@ -272,8 +279,13 @@
   .sectionImageOnTheLeft{
     display: grid;
     grid-template-columns: .75fr 1fr;
-    min-height: 50rem;
+    /* min-height: 50rem; */
     position: relative;
+
+
+    /* height: 25rem; */
+
+    
   }
   
   .sectionImageOnTheLeftContainer{
