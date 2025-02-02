@@ -106,7 +106,7 @@ export default function Home() {
                   A vibrant Province nestled against the Mountains.
                 </h3>
             </div>
-            <div className={`${styles.sectionImageOnTheLeftContentContainerRight} p-x-1-m`} >
+            <div className={`${styles.sectionImageOnTheLeftContentContainerRight}`} >
                 <h3>
                   Town Highlights
                 </h3>

@@ -176,7 +176,7 @@
 
 
 .sectionImageOnTheLeftContentContainerRight{
-  /* padding: 0 0 0 1rem; */
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -327,7 +327,7 @@
     /* background-color: blueviolet; */
     /* border: 1px solid #ff0000; */
     /* background-color: #cccccc; */
-    padding-left: 2rem;
+    padding: 0 2rem;
 
   }
   
