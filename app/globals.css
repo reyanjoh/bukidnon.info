@@ -399,7 +399,7 @@ ul{
 
 .contentLinkscardDate{
   text-transform: uppercase;
-  font-size: .7rem;
+  font-size: .5rem;
   font-weight: 500;
   display: flex;
   gap: .5rem;
@@ -408,6 +408,7 @@ ul{
 }
 
 .contentLinkscardCategory{
+  font-size: .5rem !important;
   text-decoration: none;
   /* color: var(--theme-color); */
   transition: all .5s ease;
@@ -542,6 +543,15 @@ ul{
   .flex-end {
     justify-content: flex-end;
     align-items: flex-end;
+  }
+
+  .contentLinkscardDate{
+    font-size: .7rem;
+  }
+
+  .contentLinkscardCategory{
+    font-size: .7rem !important;
+  
   }
 }
 

@@ -4,9 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 35rem;
-
-
+    min-height: 30rem;
     /* background-color: brown; */
     position: relative;
     z-index: -2;
@@ -25,17 +23,20 @@
     z-index: -1;
 }
 
+
 .heroContentContainer{
-    min-height: 15rem;
+    min-height: 18rem;
     color: white;
 }
 
+
 .heroContentContainer h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
-    width: 75%;
+    width: 100%;
     /* background-color: red; */
 }
+
 
 
 .articlesContainer{
@@ -43,7 +44,11 @@
     background-color: red; */
     display: grid;
     grid-template-columns: 1.6fr auto;
-    gap: 2rem;
+    gap: 1rem;
+
+    padding: 0 1rem;
+
+
 }
 
 
@@ -53,11 +58,13 @@
     flex-direction: column;
     /* gap: 2rem; */
 }
+
+
 /* .articlesAds{
     background-color: brown;
 } */
 .articlesAdsImage{
-    width: 100%;
+    width: 6rem;
     height: auto;
     object-fit: cover;
 }
@@ -92,14 +99,35 @@
 
 
 @media (min-width: 1150px) {
-    
-    
-    
-    
-    
-    
 
     
+    .hero{
+        min-height: 35rem;
+    }
+
+    .heroContentContainer{
+        min-height: 15rem;
+    }
+    
+    .heroContentContainer h1{
+        font-size: 3.5rem;
+        font-weight: 700;
+        width: 75%;
+        /* background-color: red; */
+    }
+    
+    
+    .articlesContainer{
+        grid-template-columns: 1.6fr auto;
+        gap: 2rem;
+
+        padding: 0 0;
+
+    }
+   
+    .articlesAdsImage{
+        width: 100%;
+    }
     
     
     

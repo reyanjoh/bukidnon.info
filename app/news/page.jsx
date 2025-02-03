@@ -16,7 +16,7 @@ function Page() {
           <h1>Street Grade Separated Intersection Project</h1>
         </div>
       </section>
-      <section className={`${styles.articles} width-full flex flex-justify-center p-y-3 p-y-3-m p-x-1-m`}>
+      <section className={`${styles.articles} width-full flex flex-justify-center p-y-3 p-y-1-m p-x-1-m`}>
           <div className={`${styles.articlesContainer} width`}>
             <div className={`${styles.articlesContent}`}>
               <ArticleCard />

@@ -9,7 +9,7 @@ const ArticleCard = () => {
                 <Image className={`${styles.image}`} src='/imgs/cardImage.jpg' alt='article' width={150} height={150} />
             </div>
             <div className={`${styles.textContainer}`}>
-                <h2>Street Grade Separated Intersection Project</h2>
+                <h2>Street Grade Separated Intersection Project </h2>
                 <div className={`contentLinkscardDate`}>
                     <span>
                         John Doe
